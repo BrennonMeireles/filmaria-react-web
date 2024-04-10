@@ -1,0 +1,32 @@
+header {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 60px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: brown;
+}
+
+.logo {
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.favoritos {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    background-color: #fff;
+}
+
+.favoritos:hover {
+    background-color: brown;
+    columns: #000;
+}
