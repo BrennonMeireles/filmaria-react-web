@@ -1,5 +1,5 @@
 import React from "react"
-import api from "../../services"
+import api from "../../services/api"
 import { useState, useEffect } from "react-router-dom"
 import { Link } from "react-router-dom"
 import "./style.css"
@@ -16,7 +16,7 @@ function Home() {
         }
 
         lerFilmes()
-    })
+    }, [])
 
     return (
         <div className="container">

@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+ 
+.meus-filmes{
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ 
+ul{
+    padding: 0;
+}
+ 
+ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    min-width: 600px;
+    margin-bottom: 15px;
+}
+ 
+span{
+    font-size: 20px;
+}
+ 
+button{
+    margin-left: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: red;
+    color: #fff;
+}
+
+ul li div a {
+    text-decoration: none;
+    color: red;
+}
