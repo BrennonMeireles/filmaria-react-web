@@ -1,5 +1,4 @@
-import { useState, useEffect, useHistory }   from "react";
-import { useParams } from "react-router-dom";
+import { useState, useEffect, useHistory, useParams } from "react";
 import { toast } from "react-toastify"; // teste
 import api       from "../../services/api";
 import "./style.css";
